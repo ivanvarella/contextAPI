@@ -1,8 +1,8 @@
-import { useContext } from "react";
-import { CounterContext } from "../context/CounterContext";
+//4- Refactoring with hook
+import { useCounterContext } from "../hooks/useCounterContext.jsx";
 
 const Products = () => {
-  const { counter } = useContext(CounterContext);
+  const { counter } = useCounterContext();
 
   return (
     <div>
