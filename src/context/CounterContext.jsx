@@ -1,5 +1,4 @@
 // 1- Create a context object
-
 import { createContext, useState } from "react";
 
 export const CounterContext = createContext();
